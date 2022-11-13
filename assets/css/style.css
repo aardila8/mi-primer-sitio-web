@@ -1,0 +1,164 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Roboto, sans-serif;
+}
+
+.container-header {
+    height: 80px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 30px 0px;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: 0px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.container-logo {
+    width: 170px;
+    height: 80px;
+}
+
+.container-logo img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title-sports {
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+li a {
+    color: rgb(52, 58, 64);
+    font-weight: 900;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.section-one {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(108, 117, 125);
+    padding: 20px;
+}
+
+.container-section-one {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.container-sports {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.container-img-sport {
+    width: 300px;
+    height: 300px;
+}
+
+.container-img-sport img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    padding-left: 30px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background: rgb(55, 146, 55);
+}
+
+.container-artist {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.card-feid-video {
+    width: 70%;
+    height: 100%;
+    background-color: rgb(130, 205, 71);
+    box-shadow: rgba(156, 255, 156, 0.3) 0px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.section-artist-one {
+    flex-direction: column;
+}
+
+.container-artist-img {
+    width: 300px;
+    height: 300px;
+}
+
+.container-artist-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bio-feid {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 0px;
+    margin: 0px;
+}
+
+.containers-albums {
+    display: flex;
+    justify-content: center;
+}
+
+.container-album-one {
+    width: 300px;
+    height: 300px;
+}
+
+.container-album-one img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.section-artist-one {
+    width: 50%;
+}
+
+.card-video {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 30px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 20px;
+}
